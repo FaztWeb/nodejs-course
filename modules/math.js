@@ -9,8 +9,8 @@ function substract(x, y) {
 }
 
 function division(x, y) {
-  if(y ==  0) {
-    showMessage('You cannot divide by 0');
+  if (y == 0) {
+    showMessage("You cannot divide by 0");
   } else {
     return x / y;
   }
@@ -24,7 +24,12 @@ function showMessage(message) {
   console.log(message);
 }
 
+console.log(module)
+
 exports.add = add;
 exports.substract = substract;
 exports.division = division;
 exports.multiply = multiply;
+
+
+console.log(module)

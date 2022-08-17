@@ -16,6 +16,6 @@ console.log(path.parse(filePath));
 
 console.log(path.format(path.parse(filePath)));
 
-console.log(path.join("../../dist"));
+console.log(path.join("../../dist", "styles", "main.css"));
 
 console.log(path.resolve("../../dist"));
